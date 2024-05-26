@@ -57,21 +57,18 @@ public class vehiculo {
         System.out.println("Mdodelo: " + modelo);
         System.out.println("kilometraje: " + kilometraje);
         System.out.println("Año: " + año);
+
+
     }
 
-    
-     //Independiente 
-     public void realizarMantenimiento(){
-        System.out.println("\t\tMantenimiento del vehiculo ");
-    System.out.println("Chequeo del tanque de combustible");
-    System.out.println("Revision de faros");
-    System.out.println("Cambio de aceite");
-    System.out.println("Mantenimiento de frenos");
-    System.out.println("Cambio de llantas");
-      }
 
 
-
-
-
+    public void realizarMantenmiento() {
+        System.out.println("\t\t\t Mantenimientos del vehiculo");
+        System.out.println("1. Cambio de aceite");
+        System.out.println("2. Cambio de focos");
+        System.out.println("3. Limpieza del motor");
+        System.out.println("4. Cambio de llantas");
+        System.out.println("5. Arreglos de tricos ");
+     }
 }
