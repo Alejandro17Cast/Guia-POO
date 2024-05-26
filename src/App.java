@@ -14,5 +14,20 @@ public class App {
          System.out.println("\t\t Informacion del camion: ");
          System.out.println("                        ");
          camion.mostrarInfo();
+
+
+
+         System.out.println("\t\t Costos por el mantenimiento de los vehiculos  ");
+         System.out.println("\t Auto ");
+         
+         auto.costoMantenimiento(300, 100);
+
+         System.out.println("\t Camion ");
+
+         
+         auto.costoMantenimiento(1400, 100);
+
+
     }
+
 }
