@@ -1,3 +1,5 @@
+import javax.sound.sampled.SourceDataLine;
+
 public class Auto extends VehiculoPasajero {
 
     private String tipoCombustible;
@@ -31,5 +33,19 @@ public class Auto extends VehiculoPasajero {
 
 
 
+
+@Override
+public void realizarMantenimiento(){
+    super.realizarMantenimiento();
+    System.out.println("Chequeo del tanque de combustible");
+    System.out.println("Revision de faros");
+    System.out.println("Cambio de aceite");
+}
+ 
+  public void costoMantenimiento(double kmrecorridos, double costoporkm){
+    double CostodeMantenimiento= kmrecorridos*costoporkm; 
+    System.out.println("El costo total del matenimiento es: "+CostodeMantenimiento);
+  }
+  
 
 }

@@ -59,4 +59,19 @@ public class vehiculo {
         System.out.println("Año: " + año);
     }
 
+    
+     //Independiente 
+     public void realizarMantenimiento(){
+        System.out.println("\t\tMantenimiento del vehiculo ");
+    System.out.println("Chequeo del tanque de combustible");
+    System.out.println("Revision de faros");
+    System.out.println("Cambio de aceite");
+    System.out.println("Mantenimiento de frenos");
+    System.out.println("Cambio de llantas");
+      }
+
+
+
+
+
 }
